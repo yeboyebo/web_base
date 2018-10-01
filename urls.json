@@ -1,3 +1,54 @@
 {
-    "modifications": []
+    "modifications": [
+        {
+            "type": "insertAfterNode",
+            "path": "/portal/root",
+            "value": {
+                "index": {
+                    "url": "^$",
+                    "func": "index"
+                }
+            }
+        },
+        {
+            "type": "insertAfterNode",
+            "path": "/portal/index",
+            "value": {
+                "catalogo": {
+                    "url": "^catalogue$",
+                    "func": "catalogue"
+                }
+            }
+        },
+        {
+            "type": "insertAfterNode",
+            "path": "/portal/catalogo",
+            "value": {
+                "producto": {
+                    "url": "^product$",
+                    "func": "product"
+                }
+            }
+        },
+        {
+            "type": "deleteNode",
+            "path": "/portal/rest",
+            "value": null
+        },
+        {
+            "type": "deleteNode",
+            "path": "/portal/external",
+            "value": null
+        },
+        {
+            "type": "insertAfterNode",
+            "path": "/models/root",
+            "value": {
+                "flsisppal": {
+                    "auth_group": null,
+                    "auth_user": null
+                }
+            }
+        }
+    ]
 }
