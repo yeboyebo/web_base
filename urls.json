@@ -31,16 +31,6 @@
             }
         },
         {
-            "type": "deleteNode",
-            "path": "/portal/rest",
-            "value": null
-        },
-        {
-            "type": "deleteNode",
-            "path": "/portal/external",
-            "value": null
-        },
-        {
             "type": "insertAfterNode",
             "path": "/models/root",
             "value": {
