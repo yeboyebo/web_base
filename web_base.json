@@ -9,6 +9,10 @@
             {
                 "path": "config/",
                 "name": "registros.json"
+            },
+            {
+                "path": "apps/portal/templates/portal/",
+                "name": "app_portal__menu_portal.json"
             }
         ],
         "replaceFile": [
@@ -18,10 +22,6 @@
             }
         ],
         "addFile": [
-            {
-                "path": "apps/portal/",
-                "name": "app_portal____init__.py"
-            },
             {
                 "path": "apps/portal/viewset/",
                 "name": "app_portal__views_portal.py"
@@ -36,15 +36,7 @@
             },
             {
                 "path": "apps/portal/templates/portal/",
-                "name": "app_portal__login.html"
-            },
-            {
-                "path": "apps/portal/templates/portal/",
                 "name": "app_portal__product.html"
-            },
-            {
-                "path": "apps/portal/templates/portal/",
-                "name": "app_portal__menu_portal.json"
             }
         ],
         "patchScript": []

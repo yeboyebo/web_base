@@ -29,16 +29,6 @@
                     "func": "product"
                 }
             }
-        },
-        {
-            "type": "insertAfterNode",
-            "path": "/models/root",
-            "value": {
-                "flsisppal": {
-                    "auth_group": null,
-                    "auth_user": null
-                }
-            }
         }
     ]
 }
