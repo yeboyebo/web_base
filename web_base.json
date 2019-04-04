@@ -23,10 +23,6 @@
         ],
         "addFile": [
             {
-                "path": "apps/portal/viewset/",
-                "name": "app_portal__views_portal.py"
-            },
-            {
                 "path": "apps/portal/templates/portal/",
                 "name": "app_portal__home.html"
             },
@@ -39,7 +35,12 @@
                 "name": "app_portal__product.html"
             }
         ],
-        "patchScript": []
+        "patchScript": [
+            {
+                "path": "apps/portal/viewset/",
+                "name": "app_portal__views_portal.py"
+            }
+        ]
     },
     "name": "web_base"
 }
